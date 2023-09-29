@@ -1,0 +1,22 @@
+.productBody{
+    padding: 7px;
+    margin-bottom: 0px;
+    border: 2px solid silver;
+    height: 550px;
+    position: relative;
+}
+
+.productBody img{
+    height: 288px;
+    width: 288px;
+}
+.productInfo{
+    padding-left: 7px;
+    text-align: left;
+}
+
+.productFooter{
+
+    position: absolute;
+    bottom: 20px;
+}
