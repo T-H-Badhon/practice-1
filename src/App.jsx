@@ -11,7 +11,6 @@ function App() {
     <div>
       <Header></Header>
       <Body></Body>
-      jgyhjghjhfg
     </div>
   )
 }
