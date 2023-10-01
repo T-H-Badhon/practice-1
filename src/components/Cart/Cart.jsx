@@ -6,16 +6,26 @@ const Cart = (props) => {
     console.log(cart)
     let no=0;
     return (
-        <div className='cartBody'>
-            {
-                cart.map(d=> {
-                    no++;
-                    return (
-                        <h6>{no} {d.name} {d.price}</h6>
-                    )
-                })
-            }
-            fksjof
+        <div>
+            <h3>Order Summary</h3>
+            <div className='cartBody'>
+            
+                {
+                    cart.map(d=> {
+                        no++;
+                        return (
+                            <div className="cart-item">
+                                <div>
+                                    <h6>{no} {d.name}</h6>
+                                </div>
+                                <div>
+                                    <h6>{d.price}</h6>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     );
 };

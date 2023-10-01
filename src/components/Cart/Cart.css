@@ -1,3 +1,10 @@
 .cartBody{
-    
+    text-align: left;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-between;
 }
